@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar  from '../components/Navbar'
 import Footer from '../components/Footer'
 import Box from '../components/ฺBox'
@@ -53,8 +52,7 @@ function Home() {
                 transition ease-in-out hover:duration-300 hover:-translate-y-1'
                 >" Pin "</h1>
                 <p className='indent-8 text-balance font-describeFont lg:p-0'>Hello ! I am a Computer Engineer from Naresuan University. 
-                    I am looking for an internship to gain experience and learn about the working atmosphere. I am very excited to submit my application here.
-                    As an intern, I am ready to learn new things and face different challenges. I am determined to improve my skills and prepare for a good internship.
+                    I am looking for an internship to gain experience and learn about the working atmosphere. As an intern, I am ready to learn new things and face different challenges. I am determined to improve my skills and prepare for a good internship.
                     I hope to have the chance to learn and develop in many ways through your organization. Thank you very much for considering my application.</p>
 
                 </div>

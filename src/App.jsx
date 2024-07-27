@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className='mt-[2px]'>
+    <div>
       <Navbar/>
     </div>
   )

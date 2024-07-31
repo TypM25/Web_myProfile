@@ -10,7 +10,7 @@ const  toggleMenu = () => {
 }
  
   return (
-    <nav className="sticky m-3 top-2 rounded-xl shadow-2xl bg-stone-500 ">
+    <nav className="sticky z-10 m-3 top-2 rounded-xl shadow-2xl bg-stone-500 ">
         <div className='flex justify-between item-center px-7 p-3 font-serif text-white '>
         <span><Link className='font-portfolioFont text-3xl font-bold' to="/">Portfoilo</Link></span>
         
@@ -52,8 +52,12 @@ const  toggleMenu = () => {
             <li className=' py-1 px-3 font-describeFont rounded-full transition duration-110 delay-110 hover:delay-110 hover:text-orange-200 hover:bg-stone-600 
             transition ease-out hover:duration-500 hover:hover:scale-110'
             ><Link to="/">Home</Link></li>
-            <li className=' py-1 px-3 font-describeFont rounded-full transition duration-110 delay-110 hover:delay-110 hover:text-orange-200 hover:bg-stone-600 '><Link to="/experience">Experience</Link></li>
-            <li className=' py-1 px-3 font-describeFont rounded-full transition duration-110 delay-110 hover:delay-110 hover:text-orange-200 hover:bg-stone-600 '><Link to="/transcript">Transcript</Link></li>
+            <li className=' py-1 px-3 font-describeFont rounded-full transition duration-110 delay-110 hover:delay-110 hover:text-orange-200 hover:bg-stone-600 
+            transition ease-out hover:duration-500 hover:hover:scale-110'
+            ><Link to="/experience">Experience</Link></li>
+            <li className=' py-1 px-3 font-describeFont rounded-full transition duration-110 delay-110 hover:delay-110 hover:text-orange-200 hover:bg-stone-600 
+            transition ease-out hover:duration-500 hover:hover:scale-110'
+            ><Link to="/transcript">Transcript</Link></li>
             <li className=''><Dropmenu/></li>
         </ul>
         ) : null}

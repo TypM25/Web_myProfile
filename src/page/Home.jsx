@@ -35,7 +35,7 @@ function Home() {
         {/* Name */}
         <div className='flex justify-center h-96 w-full'>
             <div className='flex-col justify-center my-auto text-center'>
-                <h1 className='font-describeFont text-4xl text-red-700 font-bold'>Mrs.Thanyaporn Musikpodok</h1>
+                <h1 className='font-describeFont text-4xl text-red-700 font-bold drop-shadow-xl'>Mrs.Thanyaporn Musikpodok</h1>
                 <h2 className='pt-6 text-red-400 text-3xl font-describeFont'>" Front - End Developer "</h2>
             </div>
         </div>

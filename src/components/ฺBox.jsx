@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 
 function Box(props) {
   const { performance } = props;
   return (
     <div className="block">
-      <a href="/experience">
+      <Link to="/experience">
       <div className='flex justify-center py-5 m-9 h-4/5 w-auto rounded-lg shadow-lg bg-rose-100
       transition duration-500 ease-in-out hover:-translate-y-2 hover:scale-110 hover:bg-yellow-200'>
         <div className='flex-col justify-center w-5/6 h h-full'>
@@ -14,7 +15,7 @@ function Box(props) {
             </div>
         </div>
       </div>
-      </a>
+      </Link>
     </div>
   )
 }

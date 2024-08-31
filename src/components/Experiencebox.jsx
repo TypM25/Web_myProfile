@@ -2,12 +2,11 @@
 
 function Experiencebox(props) {
     const {event} = props;
+
     
-
-
   return (
     <div>
-        <div className="m-14 items-center rounded-lg bg-stone-200 overflow-hidden grid grid-cols-2 ">
+        <div className="m-14 items-center rounded-lg bg-stone-200 overflow-hidden md:grid md:grid-cols-2 ">
             <div className="relative m-0">
                 <div className="flex overflow-x-auto snap-center snap-mandatory scroll-smooth no-scrollbar" >
                 <img id="img-1" className="snap-always snap-start max-w-full max-h-[400px]"src={event.pathImage1} alt="" />
@@ -67,7 +66,7 @@ function Experiencebox(props) {
             </div>
         </div>
 
-        <div className="m-14 items-center rounded-lg bg-stone-200 overflow-hidden grid grid-cols-2 ">
+        <div className="m-14 items-center rounded-lg bg-stone-200 overflow-hidden md:grid md:grid-cols-2 ">
             <div className="relative m-0">
                 <div className="flex overflow-x-auto snap-center snap-mandatory scroll-smooth no-scrollbar" >
                 <img id="img-8" className="snap-always snap-start max-w-full max-h-[400px]"src={event.pathImage8} alt="" />
